@@ -7,7 +7,7 @@ First, add the respective line to your composer file
 ``` json
 "require" : {
    ... ,
-   "rob-k/dingoquerymapper": "dev-master" ,
+   "klips/dingoquerymapper": "5.7" ,
 }
 ```
 
