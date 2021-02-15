@@ -3,6 +3,7 @@
 namespace JohannesSchobel\DingoQueryMapper\Parser;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr
 
 class UriParser
 {
@@ -75,7 +76,7 @@ class UriParser
      */
     public function queryParameter($key)
     {
-        $keys = array_pluck($this->queryParameters, 'key');
+        $keys = Arr::pluck($this->queryParameters, 'key');
         $queryParameters = array_combine($keys, $this->queryParameters);
        
         return $queryParameters[$key];
@@ -188,7 +189,7 @@ class UriParser
      */
     public function hasQueryParameter($key)
     {
-        $keys = array_pluck($this->queryParameters, 'key');
+        $keys = Arr::pluck($this->queryParameters, 'key');
 
         return (in_array($key, $keys));
     }
