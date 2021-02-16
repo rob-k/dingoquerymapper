@@ -3,7 +3,7 @@
 namespace JohannesSchobel\DingoQueryMapper\Parser;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Arr
+use Illuminate\Support\Arr;
 
 class UriParser
 {
