@@ -219,7 +219,7 @@ class DingoQueryMapper
      */
     private function setterMethodName($parameter)
     {
-        return 'set' . studly_case($parameter);
+        return 'set' . Str::studly($parameter);
     }
 
     /**
