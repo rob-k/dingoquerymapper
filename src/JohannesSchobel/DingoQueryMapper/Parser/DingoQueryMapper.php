@@ -4,6 +4,7 @@ namespace JohannesSchobel\DingoQueryMapper\Parser;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 use JohannesSchobel\DingoQueryMapper\Operators\CollectionOperator;
 
 class DingoQueryMapper

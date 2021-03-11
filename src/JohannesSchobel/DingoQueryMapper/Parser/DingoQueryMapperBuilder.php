@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Str;
 use JohannesSchobel\DingoQueryMapper\Exceptions\EmptyColumnException;
 use JohannesSchobel\DingoQueryMapper\Exceptions\UnknownColumnException;
 use JohannesSchobel\DingoQueryMapper\Operators\CollectionOperator;
